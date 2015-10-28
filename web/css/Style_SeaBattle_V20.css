@@ -1,0 +1,136 @@
+@import url(reset.css);
+
+body {
+	font: 16px/1.5 Arial Verdana Tahoma monospace;
+	color:  #1B1D23;
+	background: url(../images/ship2.jpg) 0px 0px no-repeat;
+	background-size: cover;		
+}
+#wrapper {
+	width: 98%;	
+	margin: 1% auto;
+}
+
+#header {
+	height: 50px;
+	color: #1B1D23 ;
+	text-align: center;
+	font-size: 40px;
+        font-weight: 900;
+	
+}
+
+#Inf {
+	height: 150px;
+	text-align: center;
+}
+
+#GamerInf {
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+#ComputerInf {
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+#PictureInf {
+	margin-left: 40%;
+	width: 20%;
+	height: 100%;
+}
+
+#Battlefield{
+	height: 385px;
+	text-align: center;
+}
+
+#GamerBattlefield {
+	float: left;
+	width: 40%;
+	height: 100%;
+} 
+
+#ComputerBattlefield{
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+#GamerMove {
+	margin-left: 40%;
+	width: 20%;
+	height: 50%;
+}
+
+#ComputerMove{
+	margin-left: 40%;
+	width: 20%;
+	height: 50%;	
+}
+
+#footer{
+	height: 50px;
+	text-align: center;
+} 
+
+#GamerFooter{
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+#ComputerFooter {
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+/* ----------     Стили для поля игры игрока      ----------*/
+
+table {
+	border: 3px solid;
+	border-collapse: collapse;
+	margin: 0 auto;
+        height: 100%;  
+}
+
+tr {
+	text-align: center;
+}
+
+td , th{
+	border: 3px solid;	
+	width: 5%;
+	padding: 1%;
+        background: rgba(169,169,169,0.5);
+}
+
+th {
+	font-size: 100%;
+	font-weight: 900;
+	background: rgba(169,169,169,0.5);
+}
+.left-column {
+	font-size: 100%;
+	/*padding-left: 10%;*/
+	font-weight: 900;
+	background: rgba(169,169,169,0.5);
+} 
+
+.yesShip {
+	background-color: #DDE3EE;
+}
+.yesLimit {
+	background-color: #5DFD00;
+}
+#GamerFooter, #ComputerFooter {
+        font-size: 25px;
+        font-weight: 900;
+}
+input {
+    padding: 0 0;
+}
